@@ -1,0 +1,82 @@
+body{
+    background-color: #232323;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    background-color: steelblue;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+
+}
+#choice{
+    font-size: 150%;
+}
+#colorPalette{
+    margin: 0 auto;
+    max-width: 600px;
+}
+.color{
+    width:30%;
+    margin:1.66%;
+    border:0px solid transparent;
+    border-radius: 10px;
+    transition:0.4s;
+    padding-bottom: 30%;
+    float: left;
+}
+#heading{
+    text-transform: uppercase;
+    transition: .5s;
+}
+#message{
+    color:steelblue;
+    display: inline-block;
+    width:150px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+#navbar{
+    /* padding:.2px; */
+    text-align: center;
+    background-color:bisque;
+    height: 30px;
+    margin-top: 0;
+}
+.click
+{
+    background-color: steelblue;
+    border:0px solid transparent;
+    color: bisque;
+    border-radius: 1px;
+    padding:5px;
+    height:30px;
+/* }
+.difficulty{
+    /* background-color: #232323; */
+    
+    border:0px solid transparent;
+    margin:0;
+    height:30px;
+    color:bisque;
+    border:none;
+} 
+#colorPalette{
+    background-color:#232323;
+}
+button{
+    border: none;
+    font-weight: 700;
+    background: none;
+    padding:5px;
+    height: 100%;
+    outline: none;
+    font-weight: 1000%;
+    color:steelblue;
+}
+button:hover{
+    background: steelblue;
+    color:bisque;
+}
