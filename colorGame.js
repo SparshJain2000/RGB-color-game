@@ -105,15 +105,3 @@ function randomColors() {
     var b = Math.floor(Math.random() * 256);
     return "rgb(" + r + ", " + g + ", " + b + ")";
 }
-var i = 0;
-var txt = "About Me"; /* The text */
-var speed = 50;
-var my = document.querySelector("#demo");
-
-function typeWriter() {
-    if (i < txt.length) {
-        my.innerHTML += txt.charAt(i);
-        i++;
-        setTimeout(typeWriter, speed);
-    }
-}
