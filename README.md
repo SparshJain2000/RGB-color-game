@@ -6,4 +6,8 @@ It is game in which you have to guess the color from the given rgb format. It ha
 ###### CSS
 ###### HTML
 ## Installations
-###### Clone the repository and run html file
+###### Clone the repository 
+```bash
+git clone https://github.com/SparshJain2000/RGB-color-game.git
+```
+###### Run index.html file in a browser .
